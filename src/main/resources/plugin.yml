@@ -1,0 +1,22 @@
+name: G-BackPack
+version: ${project.version}
+main: fun.m4stercraft.gbackpack.GBackPack
+api-version: 1.16
+authors: [ GamerExxtreme ]
+description: Made for M4sterCraft
+website: m4stercraft.fun
+
+commands:
+  mochila:
+    usage: /<command>
+    description: Abrir backpack
+    aliases:
+      - backpack
+      - bp
+  givebp:
+    usage: /<command>
+    description: Usado para dar mochilas
+    aliases:
+      - darmochila
+      - darbp
+      - givebackpack
